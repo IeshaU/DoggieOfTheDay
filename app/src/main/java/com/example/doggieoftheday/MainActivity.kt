@@ -1,10 +1,9 @@
 package com.example.doggieoftheday
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.net.toUri
-import androidx.lifecycle.LiveData
 import coil.load
 import com.example.doggieoftheday.databinding.ActivityMainBinding
 

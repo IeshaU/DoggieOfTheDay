@@ -26,6 +26,7 @@ interface DogPhotoApiService {
     //https://dog.ceo/api/breeds/image/random
     @GET("breeds/image/random")
     suspend fun getRandomPhoto(): DogPhoto
+    fun getPhotoByBreed(breedType: String): DogPhoto?
 
 }
 
